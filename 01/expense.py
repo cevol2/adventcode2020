@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# TOO MESSY, need to refactor with itertools
+
 infile = open('expense2.txt', 'r')
 lines = [int(line.strip()) for line in infile]
 
